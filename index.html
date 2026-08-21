@@ -127,6 +127,16 @@
     .kpi-groups{grid-template-columns:1fr;}
   }
 </style>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+const SUPABASE_URL = "https://qkfxeonxdajduzcsvvnx.supabase.co";
+const SUPABASE_KEY = "sb_publishable_cf904Iy9atB8b8xTO6KhTQ_X0aJiH6L";
+
+const supabaseClient = window.supabase.createClient(
+  SUPABASE_URL,
+  SUPABASE_KEY
+);
+</script>
 </head>
 <body>
 <div class="app">
